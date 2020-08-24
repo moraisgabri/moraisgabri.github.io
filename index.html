@@ -3,91 +3,214 @@
   <head>
     <title>Portifólio Web</title>
     <meta charset="utf-8" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,500&display=swap" 
-    rel="stylesheet"
-    media="all">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,500&display=swap"
+      rel="stylesheet"
+      media="all"
+    />
+    <link hrer="" rel="stylesheet" medial="all" />
+
     <style>
+      @font-face {
+        font-family: "cyberfunkregular";
+        src: url("fonts/cyberfunk-webfont.woff2") format("woff2"),
+          url("fonts/cyberfunk-webfont.woff") format("woff");
+        font-weight: 100px;
+        font-style: normal;
+      }
+
+      .title {
+        font-family: "cyberfunkregular", "sans-serif";
+        font-size: 50px;
+      }
+
+      .title:hover {
+        text-shadow: 2px 2px 5px rgb(21, 219, 120);
+      }
+
+      .sections {
+        font-family: "cyberfunkregular", "sans-serif";
+        font-size: 30px;
+      }
+
+      .neonM {
+        padding: 0 20px;
+        color: rgb(195, 26, 125);
+        text-shadow: 0 0 15px rgb(195, 26, 125);
+        text-align: center;
+      }
+
+      .neonM:hover {
+        text-shadow: 2px 2px 5px rgb(29, 149, 246);
+      }
+
+      .neonB {
+        padding: 0 20px;
+        color: rgb(29, 149, 246);
+        text-shadow: 0 0 15px rgb(29, 149, 246);
+        text-align: center;
+      }
+
+      .neonG {
+        padding: 0 20px;
+        color: rgb(21, 219, 120);
+        text-shadow: 0 0 15px rgb(21, 219, 120);
+        text-align: center;
+      }
+
       body {
-        background-color: #fefbd8;
+        text-align: center;
+        background-image: url(/bg2.jpg);
+        background-size: cover;
+        background-attachment: fixed;
         font-family: "Montserrat", "sans-serif";
       }
 
+      .index {
+        display: inline-block;
+        margin-bottom: 40px
+      }
+
       .picture {
-        border-radius:9%
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .nome {
+        font-family: "cyberfunkregular";
+        font-size: 40px;
+      }
+
+      .nome:hover {
+        text-shadow: 2px 2px 5px rgb(0, 132, 255)
+      }
+
+      .about {
+        margin: 0 0 90px;
+      }
+
+      .skills {
+        margin: 40px 0 110px;
+      }
+
+      .refer{
+        margin-bottom: 70px
       }
 
       p {
         font-size: 19px;
+        margin: 10px 20px;
+        color: #fff;
+        text-shadow: 1px 1px 3px rgb(21, 219, 120);
+      }
+
+      .icon {
+        position: fixed;
+        right: 1px;
+        margin-right: 345px;
+        text-shadow: 0 0 15px rgb(87, 11, 131);
+      }
+
+      .linkedin {
+        bottom: 270px;
+      }
+
+      .github {
+        right: 590px;
+        bottom: 265px;
       }
 
       ul {
         font-size: 21px;
+        color: #fff;
+        text-shadow: 1px 1px 3px rgb(0, 132, 255);
       }
 
       .button {
-        color: white;
-        background-color: #618685;
-        border-radius: 4px;
-        padding: 1px 5px;
-        text-decoration: none;
+        display: inline-block;
+        margin: 0 20px;
+        color: rgb(36, 124, 224);
+        text-decoration: overline;
+      }
+
+      .button:hover {
+        text-shadow: 2px 2px 5px rgb(255, 0, 234);
+        transition: 0.2s;
       }
     </style>
   </head>
 
   <body>
-    <h1 id="title">Web Portifólio</h1>
-    <hr />
-    <h4 class="indice">Índice</h4>
-    <p>
-      <a class="button" href="#foto">Foto</a> | <a class="button" href="#about">Sobre</a> |
-      <a class="button" href="#skills">Habilidades</a> | <a class="button" href="#refer">Referências</a>
-    </p>
-    <hr />
-    <h2>José Gabriel Morais de Azevedo</h2>
+    <div class="icons">
+      <a target="_blank" href="https://linkedin.com/in/moraisgabri">
+        <img class="icon linkedin neonB" src="/linkedin.png" width="50px" />
+      </a>
+      <a target="_blank" href="https://github.com/moraisgabri/"
+        ><img class="icon github" src="/github.png" width="55px" />
+      </a>
+    </div>
+    <h1 class="title neonB">cyb3r_PORTIF0LIO</h1>
+    <nav class="index">
+      <h4 class="sections neonM">Indice</h4>
+      <p class="neonG">
+        <a class="button" href="#foto">Foto</a> |
+        <a class="button" href="#about">Sobre</a> |
+        <a class="button" href="#skills">Habilidades</a> |
+        <a class="button" href="#refer">Referencias</a>
+      </p>
+    </nav>
+
+    <h2 class="nome neonG">Jose Gabriel <strong>Morais</strong> de Azevedo</h2>
     <img
-      src="https://instagram.frec34-1.fna.fbcdn.net/v/t51.2885-15/e35/45712055_297337677555290_7525112239248262924_n.jpg?_nc_ht=instagram.frec34-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=KS015yine_YAX-tmaB-&oh=ffa7a8e6ca67c28ab604c80f6eec4ae6&oe=5F680878"
-      id="foto"
+      src="/imagemportifolio.jpeg"
       class="picture"
       width="220"
-      alt="Eu no colégio. (Não faz tempo)."
+      alt="Eu sério, olhando pra câmera, com um formato redondo"
     />
-    <h3 id="about">Sobre:</h3>
-    <p id="about">
-      Tenho 20 anos, e estudo web dev na Trybe! <br />
-      Nasci em <strong>Recife</strong>, <em>Pernambuco</em> e resido aqui até
-      hoje.
-    </p>
-    <hr />
-    <h2 id="skills">Habilidades:</h2>
-    <ul>
-      <li>Social Media</li>
-      <li>Adobe Photoshop e Illustrator</li>
-      <strong
-        ><li><em>JavaScript ES6</em></li></strong
-      >
-    </ul>
-    <hr />
-    <h3 id="refer">Referências na Programação</h3>
+    <div class="about">
+      <h3 class="sections neonM">Sobre:</h3>
+      <p id="about">
+        Tenho 20 anos, e estudo web dev na Trybe! <br />
+        Nasci em <strong>Recife</strong>, <em>Pernambuco</em> e resido aqui até
+        hoje.
+      </p>
+    </div>
+    <div class="skills">
+      <h2 id="skills" class="sections neonM">Habilidades:</h2>
+      <ul>
+        <li>Social Media</li>
+        <progress max="100" value="50"></progress>
+        <li>Adobe Photoshop e Illustrator</li>
+        <progress max="100" value="30"></progress>
+        <strong>
+          <li><em>JavaScript ES6</em></li></strong
+        >
+        <progress max="100" value="40"></progress>
+      </ul>
+    </div>
+    <div class="refer">
+    <h3 id="refer" class="sections neonM">Referencias</h3>
     <p>
       <a
         target="_blank"
         href="https://www.youtube.com/channel/UCU5JicSrEM5A63jkJ2QvGYw"
-        class = "button"
+        class="button neonB"
         >Filipe Deschamps</a
       >
       <a
         target="_blank"
         href="https://www.youtube.com/channel/UCQ9fpGb7sOBYvbVN9OcVtJQ"
-        class = "button"
+        class="button neonG"
         >Nina Dahora</a
       >
       <a
-        target="_blank" 
+        target="_blank"
         href="https://www.youtube.com/user/AkitaOnRails"
-        class="button"
+        class="button neonB"
         >Fabio Akita</a
       >
     </p>
-    <hr>
+  </div>
   </body>
 </html>
