@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "cyberfunkregular";
+  src: url("fonts/cyberfunk-webfont.woff2") format("woff2"),
+    url("fonts/cyberfunk-webfont.woff") format("woff");
+  font-weight: 100px;
+  font-style: normal;
+}
+
+.title {
+  font-family: "cyberfunkregular", "sans-serif";
+  font-size: 50px;
+}
+
+.title:hover {
+  text-shadow: 2px 2px 5px rgb(21, 219, 120);
+}
+
+.sections {
+  font-family: "cyberfunkregular", "sans-serif";
+  font-size: 30px;
+}
+
+body {
+  text-align: center;
+  background-image: url(images/bg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Montserrat", "sans-serif";
+}
+
+.index {
+  display: inline-block;
+  margin-bottom: 40px
+}
+
+.picture {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nome {
+  font-family: "cyberfunkregular";
+  font-size: 40px;
+}
+
+.nome:hover {
+  text-shadow: 2px 2px 5px rgb(0, 132, 255)
+}
+
+.about {
+  margin: 0 0 90px;
+}
+
+.skills {
+  margin: 40px 0 110px;
+}
+
+.refer{
+  margin-bottom: 70px
+}
+
+p {
+  font-size: 19px;
+  margin: 10px 20px;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgb(21, 219, 120);
+}
+
+.icon {
+  position: fixed;
+  right: 1px;
+  margin-right: 345px;
+  text-shadow: 0 0 15px rgb(87, 11, 131);
+}
+
+.linkedin {
+  bottom: 270px;
+}
+
+.github {
+  right: 590px;
+  bottom: 265px;
+}
+
+ul {
+  font-size: 21px;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgb(0, 132, 255);
+}
+
+.button {
+  display: inline-block;
+  margin: 0 20px;
+  color: rgb(36, 124, 224);
+  text-decoration: overline;
+}
+
+.button:hover {
+  text-shadow: 2px 2px 5px rgb(255, 0, 234);
+  transition: 0.2s;
+}

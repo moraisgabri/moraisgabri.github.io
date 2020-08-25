@@ -1,0 +1,25 @@
+
+      .neonM {
+        padding: 0 20px;
+        color: rgb(195, 26, 125);
+        text-shadow: 0 0 15px rgb(195, 26, 125);
+        text-align: center;
+      }
+
+      .neonM:hover {
+        text-shadow: 2px 2px 5px rgb(29, 149, 246);
+      }
+
+      .neonB {
+        padding: 0 20px;
+        color: rgb(29, 149, 246);
+        text-shadow: 0 0 15px rgb(29, 149, 246);
+        text-align: center;
+      }
+
+      .neonG {
+        padding: 0 20px;
+        color: rgb(21, 219, 120);
+        text-shadow: 0 0 15px rgb(21, 219, 120);
+        text-align: center;
+      }
