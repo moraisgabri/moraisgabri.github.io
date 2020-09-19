@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(215, 246, 250);
+  min-height: 100%;
+}
+
+.selected {
+  background-color: rgb(128 , 128 , 128);
+}
+
+.containerHeader{
+
+  max-width: 50%;
+  margin-bottom: 30px;
+  padding: 40px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.containerHeader {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.box {
+  margin: auto;
+  width: 60%;
+  padding: 20px;
+}
+
+ol {
+  display: inline-block;
+  margin: 20px 20px;
+  width: 83%;
+  background-color: rgb(198, 244, 255);
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 20px black;
+}
+
+footer {
+  min-height: 100%;
+}
+
+.is-info {
+  border-radius: 50px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.setas {
+  display: inline-block;
+}
+
+.cima {
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+
+.is-success {
+  display: block;
+  margin: auto;
+}
+
+button {
+  margin: 0px 7px
+}
+
+.botoesremover{
+  display: inline-block;
+  margin-bottom: 20px;
+}

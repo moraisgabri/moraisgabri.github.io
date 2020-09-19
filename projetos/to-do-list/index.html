@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="bulma.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="containerHeader">
+        <h1 class="title">To do list</h1>
+        <p id="funcionamento" class="subtitle is-6">
+          <em>Clique duas vezes em um item para marcá-lo como completo</em>
+        </p>
+      </div>
+    </header>
+    <div class="box">
+      <input type="text" id="texto-tarefa" placeholder="Adicione uma Tarefa" class="input"/>
+      <ol id="lista-tarefas" type="i"></ol>
+      <div class="setas">
+        <button id="mover-cima" class="button is-info cima">↑</button>
+        <button id="mover-baixo" class="button is-info baixo">↓</button>
+      </div>
+      <button id="criar-tarefa" class="button is-primary">Adcionar Tarefa</button>
+      
+      <button id="apaga-tudo" class="button is-warning">Limpar Tarefas</button>
+      
+      <div class="botoesremover">
+        <button id="remover-finalizados" class="button is-danger">Remover Finalizados</button>
+        <button id="remover-selecionado" class="button is-danger">Remover Selecionado</button>
+      </div>
+      
+      <button id="salvar-tarefas" class="button is-success">Salvar Tarefas</button>
+    </div>
+
+    <footer>
+      <h6 title='title is-6'>created by gabs®</h6>
+    </footer>
+  </body>
+</html>
